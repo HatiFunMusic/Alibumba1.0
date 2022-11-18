@@ -6,7 +6,7 @@ ICT PROJECT
 def is_leap(year):
     return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
 # Example
-year = 2020
+year = 2024
 if is_leap(year):
     print(f"The year {year} is a leap year")
 else:
